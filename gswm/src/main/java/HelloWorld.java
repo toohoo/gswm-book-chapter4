@@ -1,5 +1,5 @@
 public class HelloWorld {
-	public void Main () {
+	public void main () {
 		sayHello();
 	}
 	public void sayHello() {
