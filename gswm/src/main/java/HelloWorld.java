@@ -1,8 +1,8 @@
 public class HelloWorld {
-	public void main () {
+	public static void main(String[] args) {
 		sayHello();
 	}
-	public void sayHello() {
+	public static void sayHello() {
 		System.out.print("Hello World");
 	}
 }
