@@ -4,7 +4,7 @@
   <property name="test.src.dir" value="../../src/test/java"/>
   <property name="test.build.dir" value="../../target/test-classes"/>
   <property name="test.report.dir" value="../../target/reports"/>
-  <property name="junit.plugin.dir" value="../../plugins/junit"/>
+  <property name="junit.plugin.dir" value="../../../plugins/junit"/>
 
   <path id="classpath.test">
     <pathelement location="c:/Program Files (x86)/Jenkins/war/WEB-INF/lib/junit-4.12.jar"/>
