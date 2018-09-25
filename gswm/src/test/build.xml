@@ -6,6 +6,7 @@
   <property name="test.report.dir" value="../../target/reports"/>
   <property name="junit.plugin.dir" value="../../plugins/junit"/>
   <property name="junit.plugin.rootrel.dir" value="/devtools/test_jenkins/.jenkins/plugins/junit"/>
+  <property name="junit.plugin.rootabs.dir" value="d:/devtools/test_jenkins/.jenkins/plugins/junit"/>
 
   <path id="classpath.test">
     <pathelement location="c:/Program Files (x86)/Jenkins/war/WEB-INF/lib/junit-4.12.jar"/>
@@ -17,6 +18,9 @@
 
     <pathelement location="${junit.plugin.rootrel.dir}/WEB-INF/lib"/>
     <pathelement location="${junit.plugin.rootrel.dir}/WEB-INF/lib/junit.jar"/>
+
+    <pathelement location="${junit.plugin.rootabs.dir}/WEB-INF/lib"/>
+    <pathelement location="${junit.plugin.rootabs.dir}/WEB-INF/lib/junit.jar"/>
 
 <!--    <pathelement location="../../plugins/junit/WEB-INF/lib"/>-->
 <!--    <pathelement location="../../plugins/junit/WEB-INF/lib/junit.jar"/>-->
@@ -36,7 +40,8 @@
           <path refid="classpath.test"/>
           <pathelement location="${test.build.dir}"/>
 
-			<fileset dir="${junit.plugin.rootrel.dir}">
+<!--			<fileset dir="${junit.plugin.rootrel.dir}">-->
+			<fileset dir="${junit.plugin.rootabs.dir}">
 	            <include name="**/junit.jar" />
 	        </fileset>
 
