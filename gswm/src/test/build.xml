@@ -32,6 +32,11 @@
         <classpath>
           <path refid="classpath.test"/>
           <pathelement location="${test.build.dir}"/>
+
+			<fileset dir="${junit.plugin.dir}">
+	            <include name="**/junit.jar" />
+	        </fileset>
+
         </classpath>
         <formatter type="brief" usefile="false" />
         <formatter type="plain" usefile="false"/> <!-- neu -->
