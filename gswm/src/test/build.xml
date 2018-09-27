@@ -47,6 +47,11 @@
 
         </classpath>
 
+        <classpath>
+          <path refid="classpath.test"/>
+          <pathelement location="**/junit.jar"/>
+        </classpath>
+
     </javac>
   </target>
 
