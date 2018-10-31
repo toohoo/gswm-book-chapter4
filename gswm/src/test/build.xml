@@ -6,7 +6,7 @@
   <property name="test.report.dir" value="../../target/reports"/>
   <property name="junit.plugin.dir" value="../../plugins/junit"/>
   <property name="junit.plugin.rootrel.dir" value="/devtools/test_jenkins/.jenkins/plugins/junit"/>
-  <property name="junit.plugin.rootabs.dir" value="d:/devtools/test_jenkins/.jenkins/plugins/junit"/>
+  <property name="junit.plugin.rootabs.dir" value="c:/temp/test_jenkins/.jenkins/plugins/junit"/>
 
   <path id="classpath.test">
     <pathelement location="c:/Program Files (x86)/Jenkins/war/WEB-INF/lib/junit-4.12.jar"/>
